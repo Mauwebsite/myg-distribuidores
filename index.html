@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formualrio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <form id="myForm">
+        <h2>Formulario de producto(s)</h2>
+        <label for="nombre">¿Cuál es el precio en dólares?: </label>
+        <p>(Si deseas puedes comparar precios de diferentes tiendas de USA como Target, Walmart, bestbuy, etc.)</p>
+        <input type="number" id="nombre" name="nombre"><br><br>
+        <label for="mensaje">Descripción del producto: </label>
+        <p>(qué es, tamaño, cantidad, modelo, etc)</p>
+        <textarea id="mensaje" name="mensaje"></textarea><br><br>
+        <button type="submit" value="Enviar por WhatsApp" onclick="enviarWhatsApp()">Enviar Información</button>
+        <img src="Logo2.png"/>
+    </form>
+    
+    <script src="script.js"></script>
+</body>
+</html>

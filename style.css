@@ -1,0 +1,66 @@
+/* Estilos generales para el formulario */
+body{
+    background-color: black;
+    font-family: 'Trebuchet MS', sans-serif;;
+}
+form {
+    max-width: 600px; /* Ajusta el ancho máximo según tus necesidades */
+    margin: 0 auto; /* Centra el formulario horizontalmente */
+    padding: 20px;
+    background-color: #202020; /* Color de fondo suave */
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2{
+    color: white;
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+  p{
+    color: beige;
+    font-family:'Times New Roman', Times, serif
+  }
+  /* Estilos para los labels y inputs */
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: rgb(235, 235, 235);
+  }
+  
+  input[type="number"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+  }
+  
+  button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    width: 100%
+  }
+  
+  button[type="submit"]:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transform: translateY(-2px);
+    width: 100%
+  }
+img{
+    width: 40%;
+    margin-top: 15px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+  }
